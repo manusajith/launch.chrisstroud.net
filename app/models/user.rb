@@ -15,25 +15,25 @@ class User < ActiveRecord::Base
             'count' => 5,
             "html" => "25%<br>Discount",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_path("refer/cream-tooltip@2x.png")
+            # "image" =>  ActionController::Base.helpers.asset_path("refer/cream-tooltip@2x.png")
         },
         {
             'count' => 10,
             "html" => "50%<br>Discount",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
+            # "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
         },
         {
             'count' => 25,
             "html" => "75%<br>Discount",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
+            # "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
         },
         {
             'count' => 50,
             "html" => "Free!",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/blade-explain@2x.png")
+            # "image" => ActionController::Base.helpers.asset_path("refer/blade-explain@2x.png")
         }
     ]
 
